@@ -11,6 +11,7 @@ INTERFACE
 Procedure BeginTag(Var F:Text;TagName:String);
 Function  CloseXML(Var F:Text):Boolean;
 Function  CreateXML(Var F:Text;FileName:String):Boolean;
+Procedure EndTag(Var F:Text;TagName:String);
 Procedure WriteDataTag(Var F:Text;Value:String);
 Procedure WriteTag(Var F:Text;TagName,Value:String);
 
